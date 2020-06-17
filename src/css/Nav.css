@@ -1,0 +1,33 @@
+.link{
+  color: lightgray;
+  padding-right: 30px;
+}
+
+.link-active{
+  color: red ;
+}
+.link:hover{
+  text-decoration: none !important;
+  color: grey !important;
+}
+
+#search-button{
+  color: red !important;
+  border-color: red !important;
+}
+
+#search-button:hover{
+  color: white !important;
+  background-color: red !important;
+  border-color: red !important;
+}
+Navbar.Brand{
+  font-weight: bolder !important;
+}
+
+header{
+  font-size: 25px;
+  color: white;
+  margin-right: 20px;
+  margin-bottom: 9px;
+}
