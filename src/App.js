@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import AllMovies from './components/AllMovies.js';
 import TvShows from './components/Tv-Shows';
 import Watchlist from './components/Watchlist';
+import MovieDetail from './components/MovieDetail'
 
 
 
@@ -19,6 +20,8 @@ function App() {
         <Route path="/Moives" component={AllMovies}></Route>
         <Route path="/TvShows" component={TvShows}></Route>
         <Route path="/Watchlist" component={Watchlist}></Route>
+        <Route path="/MovieDetail" component={MovieDetail} ></Route>
+
       </Switch>
 
     </Router>

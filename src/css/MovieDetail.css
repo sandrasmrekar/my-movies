@@ -1,0 +1,64 @@
+.container{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+
+
+
+#imageContainer{
+  margin-bottom: 20px;
+  display: flex;
+  flex-grow: 1;
+  height: 500px;
+
+}
+
+#image{
+  width: 100%;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+
+#title{
+  font-family: sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+
+#logo{
+  width: 30px;
+  height: 50px;
+}
+
+#logo:hover{
+  cursor: pointer;
+}
+
+
+
+#sub{
+  color: gray;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+#summary{
+  margin-top: 20px;
+  font-family: sans-serif;
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+}
+
+#overview{
+  font-family: sans-serif;
+  font-size: 30px;
+  color: white;
+}

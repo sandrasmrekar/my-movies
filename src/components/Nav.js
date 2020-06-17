@@ -8,7 +8,7 @@ function MyNav(props){
   return(
 
 
-    <Navbar bg="dark" expand="lg" variant='dark'>
+    <Navbar  expand="lg" variant='light' className="nav">
       <header>My Movies</header>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
